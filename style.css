@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600&family=Dela+Gothic+One&display=swap');
+@keyframes plav{
+    from{
+        top:0.1vw;
+    }
+    to{
+       top:0.9vw; 
+    }
+}
+body{
+    font-family: Roboto;
+}
+.hca1{
+    position: absolute;
+    width:38vw;
+    text-align: center;
+    top:-4.1vh;
+    left:31vw;
+    border: 0.5vh dashed rgb(142, 145, 7);
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    background-color: rgb(250, 225, 2);
+    font-size: 3.7em;
+    font-family: Sofia;
+    color:rgb(39, 1, 255);
+}
+.ul1{
+    position: absolute;
+    top: 9.5vh;
+    right: 0vw;
+    width: 500vw;
+    height: 16.5vh;
+    transition: 6.5s;
+    overflow: hidden;
+}
+.ul1:hover{
+    width:100vw;
+    transition: 3.5s;
+}
+.navt1{
+    color:rgb(255, 0, 0);
+    margin-top: 5vh;
+    margin-left:411.5vw;
+    font-size: 2.1em;
+    font-family: Arimo;
+    position: absolute;
+    animation: plav 1.3s linear -2s infinite alternate;
+}
+p{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(3, 3, 94);
+}
+.li1{
+    list-style-type:none;
+    background-color: rgb(246, 250, 8);
+    height: 13vh;
+    width: 13vh;
+    text-align: center;
+    border:5px ridge rgb(15, 182, 51);
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.ob1{
+    background-image:url("https://cdn.pixabay.com/photo/2019/01/09/21/40/castle-3924346_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+    border:5px ridge rgb(122, 67, 3);
+    position: absolute;
+    left:8vw;
+    animation: plav 1.3s linear -2s infinite alternate;
+}
+.ob2{
+   background-image: url("https://cdn.pixabay.com/photo/2016/06/28/01/42/chess-1483735_960_720.jpg");
+   background-size: cover;
+   background-position: center;
+   border:5px ridge rgb(6, 132, 190);
+   position: absolute;
+   left:28vw;
+   animation: plav 1.3s linear -1.5s infinite alternate;
+}
+.ob3{
+   background-image: url("https://clipart-best.com/img/golden-cup/golden-cup-clip-art-43.png");
+   background-size: cover;
+   background-position: center;
+   border:5px ridge rgb(216, 143, 8);
+   position: absolute;
+   left:48vw;
+   animation: plav 1.3s linear -1s infinite alternate;
+}
+.ob4{
+   background-color:rgb(9, 245, 174);
+   background-image: url("https://cdn.pixabay.com/photo/2013/10/01/16/55/magnifying-glass-189254_960_720.png");
+   background-size: cover;
+   background-position: center; 
+   border:5px ridge rgb(10, 141, 38);
+   position: absolute;
+   left:68vw;
+   animation: plav 1.3s linear -0.5s infinite alternate;
+}
+.ob5{
+    background-color:rgb(27, 177, 247);
+    background-image: url("https://cdn.pixabay.com/photo/2020/10/31/21/25/paint-brush-5702384_960_720.png");
+    background-size: cover;
+    background-position: center; 
+    border:5px ridge rgb(199, 74, 224);
+    position: absolute;
+    left:88vw;
+    animation: plav 1.5s linear 0s infinite alternate;
+}
+.obchg{
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    font-size: 1.25em;
+    text-decoration: none;
+}
+.sl4{
+    color:rgb(90, 40, 20)
+}
+.sl3{
+    color:rgb(26, 47, 236);
+}
+.z-fon{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.35;
+    width:100vw;
+    height:100vh;
+    top:0vh;
+    left:0vh;
+    background-image: url("https://ggdt.ru/file/2021/04/efa20a88e86267ed7c49f394fa22c1d0.jpg");
+}
+.text1{
+    position: absolute;
+    top:28vh;
+    left:0.1vw;
+    right: 0.1vw;
+    padding:0.5vh;
+    border: 0.3vh dotted rgb(0, 0, 0);
+    border-radius: 6%;
+}
